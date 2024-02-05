@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "starting predict all"
 for MODEL in bert spanbert jobbert jobspanbert
 do
   for TYPE in skills knowledge multi
