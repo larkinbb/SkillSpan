@@ -1,7 +1,7 @@
 #!/bin/bash
 
 GPATH="data/Skills/"
-
+echo "starting evaluate"
 for model in bert jobbert spanbert jobspanbert
 do
   PPATH="data/$model"
